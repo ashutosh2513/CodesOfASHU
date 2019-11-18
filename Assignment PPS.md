@@ -924,7 +924,9 @@ To find whether the number is odd or even
  Enter any number:25
 25 is odd number
 ```
-## 
+## 23. 
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk3MzMxMTAyLC01MDkyNjUwOTBdfQ==
+eyJoaXN0b3J5IjpbLTkyODk1NDEwMywtNTA5MjY1MDkwXX0=
 -->
