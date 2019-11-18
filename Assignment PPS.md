@@ -5,7 +5,7 @@
 ##### ***Branch : Information technology (I.T.)***
 ##### ***Section : I.T. A1***
 
-# My C programes
+# My C programs
 
 ## 1. To find Area of circle
 ```
@@ -983,5 +983,6 @@ rollNo. 23
  name:preet
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2Mzg5MDE2OSwtNTA5MjY1MDkwXX0=
+eyJoaXN0b3J5IjpbLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OSwtNT
+A5MjY1MDkwXX0=
 -->
