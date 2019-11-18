@@ -1007,8 +1007,10 @@ Enter a number to calculate its factorial
 6
 Factorial of 6 = 720
 ```
-## 25. Find Factorial 
+## 25. Find Factorial using Recursion
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzYxODU5NywtMjA3MTA4NDczMiwtNj
-YzODkwMTY5LC01MDkyNjUwOTBdfQ==
+eyJoaXN0b3J5IjpbODAwMzM3NDQxLC0yMDcxMDg0NzMyLC02Nj
+M4OTAxNjksLTUwOTI2NTA5MF19
 -->
