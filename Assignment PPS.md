@@ -1,9 +1,12 @@
+![College  Logo](https://www.gndec.ac.in/logo.png)
 # *PPS Assignment*
 ## ***Submitted By :***
 ##### ***Name : Ashutosh Sharma***
 ##### ***Roll no. : 1921015***
 ##### ***Branch : Information technology (I.T.)***
 ##### ***Section : I.T. A1***
+
+### ***Submitted To:- Ms. Ranjodh Kaur***
 
 # My C programs
 
@@ -1047,6 +1050,7 @@ Enter an integer to find its factorial
 9! = 362880
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzYyMzA4MjQsMjA4Mjc1NzU5OCwtMj
-A3MTA4NDczMiwtNjYzODkwMTY5LC01MDkyNjUwOTBdfQ==
+eyJoaXN0b3J5IjpbMTU0MjcyMzc2MCwtMjAzNjIzMDgyNCwyMD
+gyNzU3NTk4LC0yMDcxMDg0NzMyLC02NjM4OTAxNjksLTUwOTI2
+NTA5MF19
 -->
