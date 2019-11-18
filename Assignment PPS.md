@@ -900,9 +900,27 @@ printf("\n\t\t\tTotal experience employes:%.2f\n\n",sum);
                         Total experience employes:50.85
 
 ```
-## 22. 
+## 22.  Odd or Even
 ```
+#include<stdio.h>
+int main()
+{
+int a;
+printf("To find whether the number is odd or even\n ");
+printf("Enter any number:");
+scanf("%d",&a);
+
+if(a%2==0)
+printf("%d is even number\n",a);
+
+else
+printf("%d is odd number\n",a);
+
+}
+```
+**OUTPUT**
+``
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTEyODQ1NCwtNTA5MjY1MDkwXX0=
+eyJoaXN0b3J5IjpbLTU1NDU0MTUxNiwtNTA5MjY1MDkwXX0=
 -->
