@@ -866,7 +866,30 @@ Enter a three digit number:253
 sum of individual number is:10
 multipling individualy all 3 digit:30
 ```
+## 21. 
+```
+#include<stdio.h>
+int main()
+
+{
+int n ;
+float y,sum;
+
+printf("\t\t\tEnter the no of employes: ");
+scanf("%d",&n);
+for (int i=1 ;i<=n;i++)
+{
+
+printf("\n\t\t\tEnter the experience of %d employe:",i);
+scanf("%f",&y);
+sum += y;
+}
+printf("\n\t\t\tTotal experience employes:%.2f\n\n",sum);
+}
+```
+**OUTPUT**
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTI2NTA5MF19
+eyJoaXN0b3J5IjpbODA0NTcyMTEwLC01MDkyNjUwOTBdfQ==
 -->
