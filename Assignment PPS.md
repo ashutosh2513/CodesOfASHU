@@ -924,7 +924,7 @@ To find whether the number is odd or even
  Enter any number:25
 25 is odd number
 ```
-## 23. 
+## 23. Use of array in structure
 ```
 #include<stdio.h>
 
@@ -959,7 +959,29 @@ return 0;
 ```
 **OUTPUT**
 ```
-
+Enter student information
+Enter roll no.:3
+enter the name:ashu
+Enter roll no.:13
+enter the name:arsh
+Enter roll no.:25
+enter the name:harsh
+Enter roll no.:11
+enter the name:deep
+Enter roll no.:23
+enter the name:preet
+stdents info.
+rollNo. 3
+ name:ashu
+rollNo. 13
+ name:arsh
+rollNo. 25
+ name:harsh
+rollNo. 11
+ name:deep
+rollNo. 23
+ name:preet
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MTM1Nzc3OSwtNTA5MjY1MDkwXX0=
+eyJoaXN0b3J5IjpbLTY2Mzg5MDE2OSwtNTA5MjY1MDkwXX0=
 -->
