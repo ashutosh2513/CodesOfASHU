@@ -902,6 +902,7 @@ printf("\n\t\t\tTotal experience employes:%.2f\n\n",sum);
 ```
 ## 22. 
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzYwMjc1NzIsLTUwOTI2NTA5MF19
+eyJoaXN0b3J5IjpbLTkxNTEyODQ1NCwtNTA5MjY1MDkwXX0=
 -->
