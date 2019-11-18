@@ -1009,8 +1009,44 @@ Factorial of 6 = 720
 ```
 ## 25. Find Factorial using Recursion
 ```
+#include<stdio.h>  
+  
+long factorial(int);  
+  
+int main()  
+{  
+int n;  
+long f;  
+  
+printf("Enter an integer to find its factorial\n");  
+scanf("%d", &n);  
+  
+if (n < 0)  
+printf("Factorial of negative integers isn't defined.\n");  
+else  
+{  
+f = factorial(n);  
+printf("%d! = %ld\n", n, f);  
+}  
+  
+return 0;  
+}
 
+long factorial(int n)  
+{  
+if (n == 0)  
+return 1;  
+else  
+return(n * factorial(n-1));  
+}
+```
+**OUTPUT**
+```
+Enter an integer to find its factorial
+9
+9! = 362880
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAwMzM3NDQxLC0yMDcxMDg0NzMyLC02Nj
-M4OTAxNjksLTUwOTI2NTA5MF19
+eyJoaXN0b3J5IjpbMjA4Mjc1NzU5OCwtMjA3MTA4NDczMiwtNj
+YzODkwMTY5LC01MDkyNjUwOTBdfQ==
 -->
