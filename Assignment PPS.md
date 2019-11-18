@@ -135,7 +135,7 @@ fizz
 19
 buzz
 ```
-## 5. Program which will  everything
+## 5. Program which will accept everything
 ```
 #include<stdio.h>
 int main()
@@ -1047,6 +1047,6 @@ Enter an integer to find its factorial
 9! = 362880
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MjQwNDE5MiwyMDgyNzU3NTk4LC0yMD
-cxMDg0NzMyLC02NjM4OTAxNjksLTUwOTI2NTA5MF19
+eyJoaXN0b3J5IjpbLTIwMzYyMzA4MjQsMjA4Mjc1NzU5OCwtMj
+A3MTA4NDczMiwtNjYzODkwMTY5LC01MDkyNjUwOTBdfQ==
 -->
