@@ -982,7 +982,33 @@ rollNo. 11
 rollNo. 23
  name:preet
 ```
+## 24. Find Factorial
+```
+#include <stdio.h>  
+  
+int main()  
+{  
+int c, n, fact = 1;  
+  
+printf("Enter a number to calculate its factorial\n");  
+scanf("%d", &n);
+
+for (c = 1; c <= n; c++)  
+fact = fact * c;  
+  
+printf("Factorial of %d = %d\n", n, fact);  
+  
+return 0;  
+}
+```
+**OUTPUT**
+```
+Enter a number to calculate its factorial
+6
+Factorial of 6 = 720
+```
+## 25. Find Factorial 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OSwtNT
-A5MjY1MDkwXX0=
+eyJoaXN0b3J5IjpbLTQ0MzYxODU5NywtMjA3MTA4NDczMiwtNj
+YzODkwMTY5LC01MDkyNjUwOTBdfQ==
 -->
