@@ -926,7 +926,40 @@ To find whether the number is odd or even
 ```
 ## 23. 
 ```
+#include<stdio.h>
+
+struct student
+{
+int roll;
+char name[25];
+};
+
+int main()
+
+{
+
+int i;
+struct student st[5];
+printf("Enter student information\n");
+for(i=1;i<=5;i++)
+  {
+   printf("Enter roll no.:");
+   scanf("%d",&st[i].roll);
+   printf("enter the name:");
+   scanf("%s", &st[i].name);
+  }
+printf("stdents info.\n");
+for(i=1;i<=5;i++)
+{
+printf("rollNo. %d\n name:%s\n",st[i].roll,st[i].name);
+}
+
+return 0;
+}
+```
+**OUTPUT**
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODk1NDEwMywtNTA5MjY1MDkwXX0=
+eyJoaXN0b3J5IjpbLTQ2MTM1Nzc3OSwtNTA5MjY1MDkwXX0=
 -->
