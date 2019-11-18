@@ -866,7 +866,7 @@ Enter a three digit number:253
 sum of individual number is:10
 multipling individualy all 3 digit:30
 ```
-## 21. 
+## 21. Experience
 ```
 #include<stdio.h>
 int main()
@@ -889,7 +889,19 @@ printf("\n\t\t\tTotal experience employes:%.2f\n\n",sum);
 ```
 **OUTPUT**
 ```
+                        Enter the no of employes: 3
 
+                        Enter the experience of 1 employe:12.6
+
+                        Enter the experience of 2 employe:25
+
+                        Enter the experience of 3 employe:13.25
+
+                        Total experience employes:50.85
+
+```
+## 22. 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0NTcyMTEwLC01MDkyNjUwOTBdfQ==
+eyJoaXN0b3J5IjpbLTE1MzYwMjc1NzIsLTUwOTI2NTA5MF19
 -->
