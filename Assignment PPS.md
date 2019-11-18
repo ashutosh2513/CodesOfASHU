@@ -919,8 +919,12 @@ printf("%d is odd number\n",a);
 }
 ```
 **OUTPUT**
-``
-
+```
+To find whether the number is odd or even
+ Enter any number:25
+25 is odd number
+```
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDU0MTUxNiwtNTA5MjY1MDkwXX0=
+eyJoaXN0b3J5IjpbNDk3MzMxMTAyLC01MDkyNjUwOTBdfQ==
 -->
