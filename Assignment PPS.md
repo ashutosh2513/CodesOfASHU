@@ -473,11 +473,40 @@ Factorial of 6 = 720
 
 ## 12. WAP to find factorial of a number using recursion.
 ```
+#include<stdio.h>
+  int fac(int);
+
+  int fac(int a)
+  {
+  int f;
+
+  if (a==1)
+  return a;
+
+  f = a * fac(a-1);
+  return f;
+  }
+
+
+
+  int main()
+  {
+
+  int p,a;
+  printf("Enter the number:");
+  scanf("%d",&a);
+
+  p = fac(a);
+
+  printf("Factorial of %d is %d\n",a,p);
+
+  }
 
 ```
 **OUTPUT**
 ```
-
+Enter the number:5
+Factorial of 5 is 120
 ```
 
 ## 6.  Largest number
@@ -721,7 +750,7 @@ After swaping:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTQ5NDAyNjcsMTIwNTU3Njk1NCwxMz
+eyJoaXN0b3J5IjpbLTE5MzY0MDg1NjAsMTIwNTU3Njk1NCwxMz
 Q2OTA5NzY4LDE1NDI3MjM3NjAsLTIwMzYyMzA4MjQsMjA4Mjc1
 NzU5OCwtMjA3MTA4NDczMiwtNjYzODkwMTY5LC01MDkyNjUwOT
 BdfQ==
