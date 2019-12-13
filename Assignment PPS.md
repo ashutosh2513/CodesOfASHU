@@ -509,7 +509,14 @@ Enter the number:5
 Factorial of 5 is 120
 ```
 
-## 13. Program to enter the elements in an array, store all even number in differne 
+## 13. Program to enter the elements in an array, store all even number in different array.
+```
+
+```
+**OUTPUT**
+```
+
+```
 
 ## 6.  Largest number
 ```
@@ -752,7 +759,7 @@ After swaping:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTgwNjQ0MSwxMjA1NTc2OTU0LDEzND
+eyJoaXN0b3J5IjpbMTQ5MTMzNTY4MywxMjA1NTc2OTU0LDEzND
 Y5MDk3NjgsMTU0MjcyMzc2MCwtMjAzNjIzMDgyNCwyMDgyNzU3
 NTk4LC0yMDcxMDg0NzMyLC02NjM4OTAxNjksLTUwOTI2NTA5MF
 19
