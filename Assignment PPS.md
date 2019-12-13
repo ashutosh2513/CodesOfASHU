@@ -273,7 +273,35 @@ Enter the number for the table:23
 
 ```
 
-## 7.WAP to display the table betw
+## 7.WAP to display the table between the range.
+```
+#include<stdio.h>
+int main()
+{
+int a,b,c,d,e,f;
+printf("enter the range\n");
+printf("from:");
+scanf("%d",&a);
+printf("to:");
+scanf("%d",&b);
+
+printf("table from %d to %d are:-\n",a,b);
+
+for(c=a;c<=b;c++)
+   { 
+     for(d=1;d<=10;d++)
+     {
+      e=d*c;
+      printf("%d*%d=%d\n",c,d,e);
+     }
+   }
+}
+
+```
+**OUTPUT**
+```
+
+```
 
 ## 1. To find Area of circle
 ```
@@ -1276,8 +1304,8 @@ Enter a number to calculate its factorial
 Factorial of 6 = 720
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk1MjQ1MzQxLDEyMDU1NzY5NTQsMTM0Nj
-kwOTc2OCwxNTQyNzIzNzYwLC0yMDM2MjMwODI0LDIwODI3NTc1
-OTgsLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OSwtNTA5MjY1MDkwXX
-0=
+eyJoaXN0b3J5IjpbLTkxMDk1NDU0MCwxMjA1NTc2OTU0LDEzND
+Y5MDk3NjgsMTU0MjcyMzc2MCwtMjAzNjIzMDgyNCwyMDgyNzU3
+NTk4LC0yMDcxMDg0NzMyLC02NjM4OTAxNjksLTUwOTI2NTA5MF
+19
 -->
