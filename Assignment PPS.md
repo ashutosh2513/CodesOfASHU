@@ -175,7 +175,32 @@ Enter any number:-9
 -9 is negative
 
 ```
-## 4. WAP to check whether 
+## 4. WAP to check whether number is even or odd.
+```
+#include<stdio.h>
+int main()
+{
+int a;
+printf("To find whether the number is odd or even\n ");
+printf("Enter any number:");
+scanf("%d",&a);
+
+if(a%2==0)
+printf("%d is even number\n",a);
+
+else
+printf("%d is odd number\n",a);
+
+}
+
+```
+**OUTPUT**
+```
+To find whether the number is odd or even
+ Enter any number:6
+6 is even number
+```
+
 ## 1. To find Area of circle
 ```
 #include<stdio.h>
@@ -1177,8 +1202,8 @@ Enter a number to calculate its factorial
 Factorial of 6 = 720
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYxMDMyNDc3LDEyMDU1NzY5NTQsMTM0Nj
-kwOTc2OCwxNTQyNzIzNzYwLC0yMDM2MjMwODI0LDIwODI3NTc1
-OTgsLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OSwtNTA5MjY1MDkwXX
-0=
+eyJoaXN0b3J5IjpbMjAwMDc5MTM2OSwxMjA1NTc2OTU0LDEzND
+Y5MDk3NjgsMTU0MjcyMzc2MCwtMjAzNjIzMDgyNCwyMDgyNzU3
+NTk4LC0yMDcxMDg0NzMyLC02NjM4OTAxNjksLTUwOTI2NTA5MF
+19
 -->
