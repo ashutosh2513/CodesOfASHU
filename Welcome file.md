@@ -10,6 +10,34 @@
 
 # My C programs
 
+## 1. To convert  Degree To Fahrenheit
+```
+#include<stdio.h>
+int main()
+{
+printf("\t\t\taa gyea pher convert krn\n\n");
+printf("\t\t\tchll pehla degree toh fahrenheit vch krde aa\n\n");
+
+float c;
+float g;
+printf("\n\thon ds de koi number jeada mein convert kra:");
+scanf("%f",&c);
+g=((9*c)/5)+32;
+printf("\n\n\t\taa le chk fahrenheit vch:%.3f\n\n\n\n\n",g);
+}
+```
+**OUTPUT**
+```
+ aa gyea pher convert krn
+
+                        chll pehla degree toh fahrenheit vch krde aa
+
+
+        hon ds de koi number jeada mein convert kra:23
+
+
+                aa le chk fahrenheit vch:73.400
+
 ## 1. To find Area of circle
 ```
 #include<stdio.h>
@@ -1016,5 +1044,5 @@ M2MjMwODI0LDIwODI3NTc1OTgsLTIwNzEwODQ3MzIsLTY2Mzg5
 MDE2OSwtNTA5MjY1MDkwXX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3Njk3MDY4Ml19
+eyJoaXN0b3J5IjpbLTgyNDE4MjU2MF19
 -->
