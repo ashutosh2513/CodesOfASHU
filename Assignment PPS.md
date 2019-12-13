@@ -748,7 +748,26 @@ Enter 4 numbers of second matrix:4
 
 ## 17. WAP to reverse a number.
 ```
+#include <stdio.h>
 
+int main()  
+{  
+int n, r = 0;
+
+printf("Enter a number to reverse\n");  
+scanf("%d", &n);
+
+while (n != 0)  
+{  
+r = r * 10;  
+r = r + n%10;  
+n = n/10;  
+}
+
+printf("Reverse of the number = %d\n", r);
+
+return 0;  
+}
 ```
 **OUTPUT**
 ```
@@ -761,8 +780,8 @@ Reverse of the number = 4321
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5OTM3MzAwLDIxMjE1MzQ4NTMsMTQ5MT
-MzNTY4MywxMjA1NTc2OTU0LDEzNDY5MDk3NjgsMTU0MjcyMzc2
-MCwtMjAzNjIzMDgyNCwyMDgyNzU3NTk4LC0yMDcxMDg0NzMyLC
-02NjM4OTAxNjksLTUwOTI2NTA5MF19
+eyJoaXN0b3J5IjpbMTAyNDc5NzQ2MSwyMTIxNTM0ODUzLDE0OT
+EzMzU2ODMsMTIwNTU3Njk1NCwxMzQ2OTA5NzY4LDE1NDI3MjM3
+NjAsLTIwMzYyMzA4MjQsMjA4Mjc1NzU5OCwtMjA3MTA4NDczMi
+wtNjYzODkwMTY5LC01MDkyNjUwOTBdfQ==
 -->
