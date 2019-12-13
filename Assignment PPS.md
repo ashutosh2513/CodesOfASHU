@@ -561,6 +561,77 @@ Even numbers :-
 
 ```
 
+```
+#include<stdio.h>
+int main()
+
+{
+
+int a[10][10] , b[10][10] , c[10][10] , d,e,f,g,h,i;
+
+printf("Enter rows and coloum of first matrix:");
+scanf("%d%d",&d,&e);
+
+
+printf("Enter rows and coloum of second matrix:");
+scanf("%d%d",&f,&g);
+
+
+if(d != f && e != g)
+{
+printf("Enter correct sequence of matrix.\n");
+}
+
+else
+
+{
+printf("Enter %d numbers of first matrix:", d*e);
+for(h=1;h<=d;h++)
+ for(i=1;i<=e;i++)
+scanf("%d",&a[h][i]);
+
+printf("Enter %d numbers of second matrix:", f*g);
+for(h=1;h<=f;h++)
+ for(i=1;i<=g;i++)
+scanf("%d",&b[h][i]);
+
+for(h=1;h<=d;h++)
+ {
+ for(i=1;i<=e;i++)
+{
+printf("%d ",a[h][i]);
+}
+printf("\n");
+
+}
+for(h=1;h<=f;h++)
+ {
+ for(i=1;i<=g;i++)
+{
+printf("%d ",b[h][i]);
+}
+printf("\n");
+
+}
+
+
+for(h=1;h<=d;h++)
+{
+for(i=1;i<=g;i++)
+{
+c[h][i]=a[h][i]+b[h][i];
+printf("%d ",c[h][i]);
+}
+printf("\n");
+}
+
+}
+}
+```
+**OUTPUT**
+```
+
+```
 
 ## 7. Matrix 
 ```
@@ -756,7 +827,7 @@ After swaping:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3MjkwNTA5LDE0OTEzMzU2ODMsMTIwNT
+eyJoaXN0b3J5IjpbODMyNTk2MzYwLDE0OTEzMzU2ODMsMTIwNT
 U3Njk1NCwxMzQ2OTA5NzY4LDE1NDI3MjM3NjAsLTIwMzYyMzA4
 MjQsMjA4Mjc1NzU5OCwtMjA3MTA4NDczMiwtNjYzODkwMTY5LC
 01MDkyNjUwOTBdfQ==
