@@ -156,7 +156,7 @@ return 0;
 ```
 #include<stdio.h>
 int main()
-{
+{int
 printf("Enter any number:");
 scanf("%d",&a);
 if(a>=0)
@@ -1176,8 +1176,8 @@ Enter a number to calculate its factorial
 Factorial of 6 = 720
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDExMTkwNTcsMTIwNTU3Njk1NCwxMz
-Q2OTA5NzY4LDE1NDI3MjM3NjAsLTIwMzYyMzA4MjQsMjA4Mjc1
-NzU5OCwtMjA3MTA4NDczMiwtNjYzODkwMTY5LC01MDkyNjUwOT
-BdfQ==
+eyJoaXN0b3J5IjpbMTExMzE1ODU5NCwxMjA1NTc2OTU0LDEzND
+Y5MDk3NjgsMTU0MjcyMzc2MCwtMjAzNjIzMDgyNCwyMDgyNzU3
+NTk4LC0yMDcxMDg0NzMyLC02NjM4OTAxNjksLTUwOTI2NTA5MF
+19
 -->
