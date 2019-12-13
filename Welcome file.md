@@ -31,7 +31,14 @@ printf("\n\n\t\tIn degree:%.3f\n\n\n\n\n",g);
 
                 In degree:73.400
 ```
-## 2. WAP to find eh
+## 2. WAP to find whether the number is +ve or -ve.
+```
+#include<stdio.h>
+int main()
+{
+printf("
+```
+
 ## 1. To find Area of circle
 ```
 #include<stdio.h>
@@ -1011,5 +1018,5 @@ M2MjMwODI0LDIwODI3NTc1OTgsLTIwNzEwODQ3MzIsLTY2Mzg5
 MDE2OSwtNTA5MjY1MDkwXX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNjEwMTUzLDE0MTUyNzk0OF19
+eyJoaXN0b3J5IjpbLTExODgxMTQ5NzEsMTQxNTI3OTQ4XX0=
 -->
