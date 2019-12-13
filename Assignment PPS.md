@@ -203,10 +203,37 @@ To find whether the number is odd or even
 
 ## 5. WAP to print the total experience of the employs.
 ```
+#include<stdio.h>
+int main()
+
+{
+int n ;
+float y,sum;
+
+printf("\t\t\tEnter the no of employes: ");
+scanf("%d",&n);
+for (int i=1 ;i<=n;i++)
+{
+
+printf("\n\t\t\tEnter the experience of %d employe:",i);
+scanf("%f",&y);
+sum += y;
+}
+printf("\n\t\t\tTotal experience employes:%.2f\n\n",sum);
+}
 
 ```
 **OUTPUT**
 ```
+ Enter the no of employes: 3
+
+                        Enter the experience of 1 employe:18.5
+
+                        Enter the experience of 2 employe:12.9
+
+                        Enter the experience of 3 employe:5.4
+
+                        Total experience employes:36.80
 
 ```
 
@@ -1211,8 +1238,8 @@ Enter a number to calculate its factorial
 Factorial of 6 = 720
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzI4NjI2NzEsMTIwNTU3Njk1NCwxMz
-Q2OTA5NzY4LDE1NDI3MjM3NjAsLTIwMzYyMzA4MjQsMjA4Mjc1
-NzU5OCwtMjA3MTA4NDczMiwtNjYzODkwMTY5LC01MDkyNjUwOT
-BdfQ==
+eyJoaXN0b3J5IjpbLTE5ODA4MDE4MCwxMjA1NTc2OTU0LDEzND
+Y5MDk3NjgsMTU0MjcyMzc2MCwtMjAzNjIzMDgyNCwyMDgyNzU3
+NTk4LC0yMDcxMDg0NzMyLC02NjM4OTAxNjksLTUwOTI2NTA5MF
+19
 -->
