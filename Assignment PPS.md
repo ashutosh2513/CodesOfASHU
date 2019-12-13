@@ -225,18 +225,19 @@ printf("\n\t\t\tTotal experience employes:%.2f\n\n",sum);
 ```
 **OUTPUT**
 ```
- Enter the no of employes: 3
+                 Enter the no of employes: 3
 
-                        Enter the experience of 1 employe:18.5
+                 Enter the experience of 1 employe:18.5
 
-                        Enter the experience of 2 employe:12.9
+                 Enter the experience of 2 employe:12.9
 
-                        Enter the experience of 3 employe:5.4
-
-                        Total experience employes:36.80
+                 Enter the experience of 3 employe:5.4
+                        
+                 Total experience employes:36.80
 
 ```
 
+## 6.
 ## 1. To find Area of circle
 ```
 #include<stdio.h>
@@ -1238,8 +1239,8 @@ Enter a number to calculate its factorial
 Factorial of 6 = 720
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODA4MDE4MCwxMjA1NTc2OTU0LDEzND
-Y5MDk3NjgsMTU0MjcyMzc2MCwtMjAzNjIzMDgyNCwyMDgyNzU3
-NTk4LC0yMDcxMDg0NzMyLC02NjM4OTAxNjksLTUwOTI2NTA5MF
-19
+eyJoaXN0b3J5IjpbLTEzNDM5NTgwMTAsMTIwNTU3Njk1NCwxMz
+Q2OTA5NzY4LDE1NDI3MjM3NjAsLTIwMzYyMzA4MjQsMjA4Mjc1
+NzU5OCwtMjA3MTA4NDczMiwtNjYzODkwMTY5LC01MDkyNjUwOT
+BdfQ==
 -->
