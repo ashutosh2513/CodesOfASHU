@@ -205,7 +205,7 @@ Enter three number:9
 
 ```
 
-## 2.  WAP which takes 2 interger ,op
+## 2.  WAP which takes 2 integer , operands and one operator from user,  perform the operation and then print the result (+,-,*,/,%)
 ```
 
 #include<stdio.h>
@@ -789,5 +789,5 @@ M2MjMwODI0LDIwODI3NTc1OTgsLTIwNzEwODQ3MzIsLTY2Mzg5
 MDE2OSwtNTA5MjY1MDkwXX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MDAyNzYzNSwxNDE1Mjc5NDhdfQ==
+eyJoaXN0b3J5IjpbLTYzMjMxNDg3LDE0MTUyNzk0OF19
 -->
