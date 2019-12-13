@@ -346,7 +346,14 @@ table from 12 to 15 are:-
 15*10=150
 ```
 
-## 8
+## 8. WAP to display the table of even number.
+```
+
+```
+**OUTPUT**
+```
+
+```
 
 ## 1. To find Area of circle
 ```
@@ -405,34 +412,7 @@ return 0;
 Perimeter is:12.00
 Area of triangle is:6.00
 ```
-## 3. To convert  Degree To Fahrenheit
-```
-#include<stdio.h>
-int main()
-{
-printf("\t\t\taa gyea pher convert krn\n\n");
-printf("\t\t\tchll pehla degree toh fahrenheit vch krde aa\n\n");
 
-float c;
-float g;
-printf("\n\thon ds de koi number jeada mein convert kra:");
-scanf("%f",&c);
-g=((9*c)/5)+32;
-printf("\n\n\t\taa le chk fahrenheit vch:%.3f\n\n\n\n\n",g);
-}
-```
-**OUTPUT**
-```
- aa gyea pher convert krn
-
-                        chll pehla degree toh fahrenheit vch krde aa
-
-
-        hon ds de koi number jeada mein convert kra:23
-
-
-                aa le chk fahrenheit vch:73.400
-```
 ## 4. Fizz Buzz Game
 ```
 #include<stdio.h>
@@ -1349,7 +1329,7 @@ Enter a number to calculate its factorial
 Factorial of 6 = 720
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYzOTQ4NzIxLDEyMDU1NzY5NTQsMTM0Nj
+eyJoaXN0b3J5IjpbOTQ1MjI3MDIyLDEyMDU1NzY5NTQsMTM0Nj
 kwOTc2OCwxNTQyNzIzNzYwLC0yMDM2MjMwODI0LDIwODI3NTc1
 OTgsLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OSwtNTA5MjY1MDkwXX
 0=
