@@ -561,7 +561,7 @@ Even numbers :-
 
 ```
 
-## 13. WAP to add 2D array.
+## 15. WAP to add 2D array.
 ```
 #include<stdio.h>
 int main()
@@ -630,7 +630,7 @@ After addition
 
 ```
 
-## 14. WAP to multiply 2D array.
+## 16. WAP to multiply 2D array.
 ```
 #include<stdio.h>
 int main()
@@ -717,66 +717,8 @@ Enter 4 numbers of second matrix:4
 
 ```
 **OUTPUT**
-## 11. Perfect number
 ```
-#include<stdio.h>
-int main()
-{
-int i,j,sum;
 
-for(i=1; i<=500; i++)
-{
-
-sum=0;
-
-for(j=1; j<i; j++)
-{
-if(i % j == 0)
-{
-sum = sum + j;
-}
-}
-
-if(sum == i)
-{
-printf("%d\n",i);
-}
-
-}
-return 0;
-}
-```
-**OUTPUT**
-```
-6
-28
-496
-```
-## 12. Prime Number
-```
-#include<stdio.h>
-int main()
-{ 
-int a,b,c,d,e=0;
-printf("Enter the number:");
-scanf("%d",&a);
-
-for(b=2;b<a;b++)
-{
-  if(a%b==0)
-  { e=1;
-  }
-}
-  if(e==0)
-   printf("%d=  a Prime number\n",a);
-  else
-    printf("%d=not prime number\n",a);
-}
-```
-**OUTPUT**
-```
-Enter the number:25
-25=not prime number
 ```
 
 ## 13. Reversing the Number
@@ -803,107 +745,10 @@ Enter any 3 digit number:253
                 On Reversing the 3 digit number:352
 ```
 
-## 16. Sum of n Numbers
-```
-#include<stdio.h>
-int main()
-{
-int n,i, sum=0;
-printf("Enter a number:");
-scanf("%d",&n);
-for(i=1;i<=n;i++)
-{
-sum=sum+i;
-printf("%d\n",i);
-}
-
-printf("Sum of first %d number:%d\n",n,sum);
-
-}
-```
-**OUTPUT**
-```
-Enter a number:25
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-Sum of first 25 number:325
-```
-## 17. Swaping numbers w/o using 3rd variable
-```
-#include<stdio.h>
-int main()
-{
-int a,b;
-printf("Enter a number a:");
-scanf("%d",&a);
-printf("Enter a number b:");
-scanf("%d",&b);
-a=a+b;
-b=a-b;
-a=a-b;
-printf("After swaping:\n a:%d\n b:%d\n",a,b);
-
-}
-```
-**OUTPUT**
-```
-Enter a number a:25
-Enter a number b:13
-After swaping:
- a:13
- b:25
-```
-## 18. Swaping numbers using 3rd variable
-```
-#include<stdio.h>
-int main()
-{
-int a,b,c;
-printf("Enter a number a:");
-scanf("%d",&a);
-printf("Enter a number b:");
-scanf("%d",&b);
-c=a;
-a=b;
-b=c;
-printf("After swaping:\n a:%d\n b:%d\n",a,b);
-}
-```
-**OUTPUT**
-```
-Enter a number a:13
-Enter a number b:25
-After swaping:
- a:25
- b:13
-```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTA2ODE1MDUsMTQ5MTMzNTY4MywxMj
-A1NTc2OTU0LDEzNDY5MDk3NjgsMTU0MjcyMzc2MCwtMjAzNjIz
-MDgyNCwyMDgyNzU3NTk4LC0yMDcxMDg0NzMyLC02NjM4OTAxNj
-ksLTUwOTI2NTA5MF19
+eyJoaXN0b3J5IjpbLTg4MjA5Njc0MywxNDkxMzM1NjgzLDEyMD
+U1NzY5NTQsMTM0NjkwOTc2OCwxNTQyNzIzNzYwLC0yMDM2MjMw
+ODI0LDIwODI3NTc1OTgsLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OS
+wtNTA5MjY1MDkwXX0=
 -->
