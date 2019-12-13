@@ -561,7 +561,7 @@ Even numbers :-
 
 ```
 
-## 13. WAP to add 
+## 13. WAP to add 2D array.
 ```
 #include<stdio.h>
 int main()
@@ -630,7 +630,14 @@ After addition
 
 ```
 
+## 14. WAP to multiply 2D array.
+```
 
+```
+**OUTPUT**
+```
+
+```
 
 ## 11. Perfect number
 ```
@@ -817,8 +824,8 @@ After swaping:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQwMDk5NzMsMTQ5MTMzNTY4MywxMj
-A1NTc2OTU0LDEzNDY5MDk3NjgsMTU0MjcyMzc2MCwtMjAzNjIz
-MDgyNCwyMDgyNzU3NTk4LC0yMDcxMDg0NzMyLC02NjM4OTAxNj
-ksLTUwOTI2NTA5MF19
+eyJoaXN0b3J5IjpbMTk3OTUwODc4LDE0OTEzMzU2ODMsMTIwNT
+U3Njk1NCwxMzQ2OTA5NzY4LDE1NDI3MjM3NjAsLTIwMzYyMzA4
+MjQsMjA4Mjc1NzU5OCwtMjA3MTA4NDczMiwtNjYzODkwMTY5LC
+01MDkyNjUwOTBdfQ==
 -->
