@@ -239,12 +239,42 @@ printf("\n\t\t\tTotal experience employes:%.2f\n\n",sum);
 
 ## 6. WAP to display the table of user choice.
 ```
+#include<stdio.h>
+int main()
+{
+int a,b,p;
+printf("Enter the number for the table:");
+scanf("%d",&a);
+for(b=0;b<=10;b++)
+{
+
+p=b*a;
+
+printf("\t\t%d * %d = %d\n",a,b,p);
+}
+
+}
 
 ```
 **OUTPUT**
 ```
+Enter the number for the table:23
+                23 * 0 = 0
+                23 * 1 = 23
+                23 * 2 = 46
+                23 * 3 = 69
+                23 * 4 = 92
+                23 * 5 = 115
+                23 * 6 = 138
+                23 * 7 = 161
+                23 * 8 = 184
+                23 * 9 = 207
+                23 * 10 = 230
 
 ```
+
+## 7.WAP to display the table betw
+
 ## 1. To find Area of circle
 ```
 #include<stdio.h>
@@ -1246,7 +1276,7 @@ Enter a number to calculate its factorial
 Factorial of 6 = 720
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzOTk2OTI2LDEyMDU1NzY5NTQsMTM0Nj
+eyJoaXN0b3J5IjpbMzk1MjQ1MzQxLDEyMDU1NzY5NTQsMTM0Nj
 kwOTc2OCwxNTQyNzIzNzYwLC0yMDM2MjMwODI0LDIwODI3NTc1
 OTgsLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OSwtNTA5MjY1MDkwXX
 0=
