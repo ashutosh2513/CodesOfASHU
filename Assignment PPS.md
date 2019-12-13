@@ -561,6 +561,7 @@ Even numbers :-
 
 ```
 
+## 13. WAP to add 
 ```
 #include<stdio.h>
 int main()
@@ -595,26 +596,7 @@ for(h=1;h<=f;h++)
  for(i=1;i<=g;i++)
 scanf("%d",&b[h][i]);
 
-for(h=1;h<=d;h++)
- {
- for(i=1;i<=e;i++)
-{
-printf("%d ",a[h][i]);
-}
-printf("\n");
-
-}
-for(h=1;h<=f;h++)
- {
- for(i=1;i<=g;i++)
-{
-printf("%d ",b[h][i]);
-}
-printf("\n");
-
-}
-
-
+printf("After addition\n");
 for(h=1;h<=d;h++)
 {
 for(i=1;i<=g;i++)
@@ -648,14 +630,7 @@ After addition
 
 ```
 
-## 7. Matrix 
-```
 
-```
-**OUTPUT**
-```
-
-```
 
 ## 11. Perfect number
 ```
@@ -842,8 +817,8 @@ After swaping:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTQ0MTk0NCwxNDkxMzM1NjgzLDEyMD
-U1NzY5NTQsMTM0NjkwOTc2OCwxNTQyNzIzNzYwLC0yMDM2MjMw
-ODI0LDIwODI3NTc1OTgsLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OS
-wtNTA5MjY1MDkwXX0=
+eyJoaXN0b3J5IjpbLTE5OTQwMDk5NzMsMTQ5MTMzNTY4MywxMj
+A1NTc2OTU0LDEzNDY5MDk3NjgsMTU0MjcyMzc2MCwtMjAzNjIz
+MDgyNCwyMDgyNzU3NTk4LC0yMDcxMDg0NzMyLC02NjM4OTAxNj
+ksLTUwOTI2NTA5MF19
 -->
