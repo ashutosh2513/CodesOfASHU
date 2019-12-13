@@ -20,23 +20,20 @@ float g;
 printf("\n\tEnter the value in fahrenheit:");
 scanf("%f",&c);
 g=((9*c)/5)+32;
-printf("\n\n\t\t:%.3f\n\n\n\n\n",g);
+printf("\n\n\t\tIn degree:%.3f\n\n\n\n\n",g);
 }
 ```
 **OUTPUT**
 ```
- aa gyea pher convert krn
-
-                        chll pehla degree toh fahrenheit vch krde aa
-
-
-        hon ds de koi number jeada mein convert kra:23
+ 
+         Enter the value in fahrenheit:23
 
 
-                aa le chk fahrenheit vch:73.400
-
-## 1. To find Area of circle
+                In degree:73.400
 ```
+``
+## 1. To find Area of circle
+
 #include<stdio.h>
 int main()
 
@@ -1041,5 +1038,5 @@ M2MjMwODI0LDIwODI3NTc1OTgsLTIwNzEwODQ3MzIsLTY2Mzg5
 MDE2OSwtNTA5MjY1MDkwXX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTMyNDA4NV19
+eyJoaXN0b3J5IjpbMTkwMDA5MDU0Ml19
 -->
