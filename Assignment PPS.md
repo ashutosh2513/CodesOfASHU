@@ -632,6 +632,65 @@ After addition
 
 ## 14. WAP to multiply 2D array.
 ```
+#include<stdio.h>
+int main()
+
+{
+
+int a[10][10] , b[10][10] , c[10][10] , d,e,f,g,h,i,j,sum=0;
+
+printf("Enter rows and coloum of first matrix:");
+scanf("%d%d",&d,&e);
+
+
+printf("Enter rows and coloum of second matrix:");
+scanf("%d%d",&f,&g);
+
+
+if(e != f )
+{
+printf("Enter correct sequence of matrix.\n");
+}
+
+else
+
+{
+printf("Enter %d numbers of first matrix:", d*e);
+for(h=1;h<=d;h++)
+ for(i=1;i<=e;i++)
+scanf("%d",&a[h][i]);
+
+printf("Enter %d numbers of second matrix:", f*g);
+for(h=1;h<=f;h++)
+ for(i=1;i<=g;i++)
+scanf("%d",&b[h][i]);
+
+for(h=1;h<=d;h++)
+{
+for(i=1;i<=g;i++)
+{
+for(j=1;j<=f;j++)
+{
+sum = sum + a[h][j] * b[j][i];
+}
+c[h][i] = sum;
+sum=0;
+}
+}
+
+for(h=1;h<=d;h++)
+{
+ for(i=1;i<=g;i++)
+ {
+  printf("%d\t",c[h][i]);
+ }
+printf("\n");
+}
+
+
+}
+}
+
 
 ```
 **OUTPUT**
@@ -824,8 +883,8 @@ After swaping:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTUwODc4LDE0OTEzMzU2ODMsMTIwNT
-U3Njk1NCwxMzQ2OTA5NzY4LDE1NDI3MjM3NjAsLTIwMzYyMzA4
-MjQsMjA4Mjc1NzU5OCwtMjA3MTA4NDczMiwtNjYzODkwMTY5LC
-01MDkyNjUwOTBdfQ==
+eyJoaXN0b3J5IjpbMTczODE0Mjc5NiwxNDkxMzM1NjgzLDEyMD
+U1NzY5NTQsMTM0NjkwOTc2OCwxNTQyNzIzNzYwLC0yMDM2MjMw
+ODI0LDIwODI3NTc1OTgsLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OS
+wtNTA5MjY1MDkwXX0=
 -->
