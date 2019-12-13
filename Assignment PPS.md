@@ -511,11 +511,45 @@ Factorial of 5 is 120
 
 ## 13. Program to enter the elements in an array, store all even number in different array.
 ```
+#include<stdio.h>
+int main()
+{
+
+ int p[10],a;
+
+printf("Enter 10 numbers:");
+for(a=0;a<10;a++)
+{
+scanf("%d",&p[a]);
+}
+
+printf("Even numbers:-\n");
+for(a=0;a<10;a++)
+{
+if(p[a] % 2 == 0)
+{
+printf("%d ",p[a]);
+}
+}
+
+
+}
 
 ```
 **OUTPUT**
 ```
+Enter 10 numbers:1
+2
+3
+4
+5
+6
+7
+8
+9
+10
 
+2 4 6 8 10
 ```
 
 ## 6.  Largest number
@@ -759,8 +793,8 @@ After swaping:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MTMzNTY4MywxMjA1NTc2OTU0LDEzND
-Y5MDk3NjgsMTU0MjcyMzc2MCwtMjAzNjIzMDgyNCwyMDgyNzU3
-NTk4LC0yMDcxMDg0NzMyLC02NjM4OTAxNjksLTUwOTI2NTA5MF
-19
+eyJoaXN0b3J5IjpbNzE1OTMxMjk4LDE0OTEzMzU2ODMsMTIwNT
+U3Njk1NCwxMzQ2OTA5NzY4LDE1NDI3MjM3NjAsLTIwMzYyMzA4
+MjQsMjA4Mjc1NzU5OCwtMjA3MTA4NDczMiwtNjYzODkwMTY5LC
+01MDkyNjUwOTBdfQ==
 -->
