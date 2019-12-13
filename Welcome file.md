@@ -39,10 +39,18 @@ int main()
 printf("Enter any number:");
 scanf("%d",&a);
 if(a>=0)
-printf("%d is positive\n")
+printf("%d is positive\n",a);
+else
+printf("%d is negative\n");
+```
+**OUTPUT**
+```
+Enter any number:5
+5 is positive
+
+
 
 ```
-
 ## 1. To find Area of circle
 ```
 #include<stdio.h>
@@ -1022,5 +1030,5 @@ M2MjMwODI0LDIwODI3NTc1OTgsLTIwNzEwODQ3MzIsLTY2Mzg5
 MDE2OSwtNTA5MjY1MDkwXX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTMyOTEyMjcsMTQxNTI3OTQ4XX0=
+eyJoaXN0b3J5IjpbMTc4MDU2NzAzNCwxNDE1Mjc5NDhdfQ==
 -->
