@@ -163,6 +163,7 @@ if(a>=0)
 printf("%d is positive\n",a);
 else
 printf("%d is negative\n");
+}
 ```
 **OUTPUT**
 ```
@@ -1175,7 +1176,8 @@ Enter a number to calculate its factorial
 Factorial of 6 = 720
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTU3Njk1NCwxMzQ2OTA5NzY4LDE1ND
-I3MjM3NjAsLTIwMzYyMzA4MjQsMjA4Mjc1NzU5OCwtMjA3MTA4
-NDczMiwtNjYzODkwMTY5LC01MDkyNjUwOTBdfQ==
+eyJoaXN0b3J5IjpbLTE2MDExMTkwNTcsMTIwNTU3Njk1NCwxMz
+Q2OTA5NzY4LDE1NDI3MjM3NjAsLTIwMzYyMzA4MjQsMjA4Mjc1
+NzU5OCwtMjA3MTA4NDczMiwtNjYzODkwMTY5LC01MDkyNjUwOT
+BdfQ==
 -->
