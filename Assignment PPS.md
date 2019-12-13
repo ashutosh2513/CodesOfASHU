@@ -509,6 +509,8 @@ Enter the number:5
 Factorial of 5 is 120
 ```
 
+## 13. Program to enter the elements in an array, store all even number in differne 
+
 ## 6.  Largest number
 ```
 #include<stdio.h>
@@ -750,8 +752,8 @@ After swaping:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzY0MDg1NjAsMTIwNTU3Njk1NCwxMz
-Q2OTA5NzY4LDE1NDI3MjM3NjAsLTIwMzYyMzA4MjQsMjA4Mjc1
-NzU5OCwtMjA3MTA4NDczMiwtNjYzODkwMTY5LC01MDkyNjUwOT
-BdfQ==
+eyJoaXN0b3J5IjpbLTYzNTgwNjQ0MSwxMjA1NTc2OTU0LDEzND
+Y5MDk3NjgsMTU0MjcyMzc2MCwtMjAzNjIzMDgyNCwyMDgyNzU3
+NTk4LC0yMDcxMDg0NzMyLC02NjM4OTAxNjksLTUwOTI2NTA5MF
+19
 -->
