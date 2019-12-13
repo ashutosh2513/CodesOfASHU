@@ -548,10 +548,18 @@ Enter 10 numbers:1
 8
 9
 10
-
+Even numbers :-
 2 4 6 8 10
 ```
 
+## 14. Program to find greater among an array.
+```
+
+```
+**OUTPUT**
+```
+
+```
 ## 6.  Largest number
 ```
 #include<stdio.h>
@@ -793,8 +801,8 @@ After swaping:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1OTMxMjk4LDE0OTEzMzU2ODMsMTIwNT
-U3Njk1NCwxMzQ2OTA5NzY4LDE1NDI3MjM3NjAsLTIwMzYyMzA4
-MjQsMjA4Mjc1NzU5OCwtMjA3MTA4NDczMiwtNjYzODkwMTY5LC
-01MDkyNjUwOTBdfQ==
+eyJoaXN0b3J5IjpbMTU3NDM5Njc1NywxNDkxMzM1NjgzLDEyMD
+U1NzY5NTQsMTM0NjkwOTc2OCwxNTQyNzIzNzYwLC0yMDM2MjMw
+ODI0LDIwODI3NTc1OTgsLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OS
+wtNTA5MjY1MDkwXX0=
 -->
