@@ -415,12 +415,37 @@ table from 12 to 16 are:-
 
 ## 9. WAP to check whether the number is prime or not.
 ```
+#include<stdio.h>
+int main()
+{ 
+int a,b,c,d,e=0;
+printf("Enter the number:");
+scanf("%d",&a);
+
+for(b=2;b<a;b++)
+{
+  if(a%b==0)
+  { e=1;
+  }
+}
+  if(e==0)
+   printf("%d=  a Prime number\n",a);
+  else
+    printf("%d=not prime number\n",a);
+}
 
 ```
 **OUTPUT**
 ```
+Enter the number:6
+6=not prime number
+ 
+Enter the number:7
+7=  a Prime number
 
 ```
+
+## 11. 
 
 ## 1. To find Area of circle
 ```
@@ -1396,8 +1421,8 @@ Enter a number to calculate its factorial
 Factorial of 6 = 720
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTA5OTg4NTgsMTIwNTU3Njk1NCwxMz
-Q2OTA5NzY4LDE1NDI3MjM3NjAsLTIwMzYyMzA4MjQsMjA4Mjc1
-NzU5OCwtMjA3MTA4NDczMiwtNjYzODkwMTY5LC01MDkyNjUwOT
-BdfQ==
+eyJoaXN0b3J5IjpbNzMwNDEyMTEzLDEyMDU1NzY5NTQsMTM0Nj
+kwOTc2OCwxNTQyNzIzNzYwLC0yMDM2MjMwODI0LDIwODI3NTc1
+OTgsLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OSwtNTA5MjY1MDkwXX
+0=
 -->
