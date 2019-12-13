@@ -472,6 +472,7 @@ Factorial of 6 = 720
 ```
 
 
+
 ## 6.  Largest number
 ```
 #include<stdio.h>
@@ -613,60 +614,7 @@ Enter any 3 digit number:253
 
                 On Reversing the 3 digit number:352
 ```
-## 14. Shop Bill
-```
-#include<stdio.h>
-int main()
-{
-printf("\n\t\tprice of one pen is:10");
-printf("\n\n\t\tprice of one pencil is:5");
-printf("\n\n\t\tprice of one sharpner is:2");
 
-int a,b,c,g,e,h;
-
-printf("\nPen:");
-scanf("%d",&a);
-
-printf("\npencil:");
-scanf("%d",&b);
-
-printf("\nsharpner:");
-scanf("%d",&c);
-
-        g=10*a;
-        e=5*b;
-        h=2*c;
-
-printf("\ncost of pens is:%d",g);
-printf("\ncost of pencils is:%d",e);
-printf("\ncost of sharpners is:%d",h);
-
-int i=g+e+h;
-printf("\n\n\t\ttotal cost:%d\n",i);
-
-return 0;
-}
-```
-**OUTPUT**
-```
-
-                price of one pen is:10
-
-                price of one pencil is:5
-
-                price of one sharpner is:2
-Pen:25
-
-pencil:13
-
-sharpner:6
-
-cost of pens is:250
-cost of pencils is:65
-cost of sharpners is:12
-
-                total cost:327
-```
 ## 16. Sum of n Numbers
 ```
 #include<stdio.h>
@@ -764,180 +712,9 @@ After swaping:
  a:25
  b:13
 ```
-## 19.  Table of any Number
-```
-#include<stdio.h>
-int main()
-{
-int a,b,p;
-printf("Enter the number for the table:");
-scanf("%d",&a);
-for(b=0;b<=10;b++)
-{
-
-p=b*a;
-
-printf("\t\t%d * %d = %d\n",a,b,p);
-}
-}
-```
-**OUTPUT**
-```
-Enter the number for the table:25
-                25 * 0 = 0
-                25 * 1 = 25
-                25 * 2 = 50
-                25 * 3 = 75
-                25 * 4 = 100
-                25 * 5 = 125
-                25 * 6 = 150
-                25 * 7 = 175
-                25 * 8 = 200
-                25 * 9 = 225
-                25 * 10 = 250
-```
-## 20. Individual 3 digit
-```
-#include<stdio.h>
-int main()
-{
-int a,b,c,e,g,h;
-printf("Enter a three digit number:");
-scanf("%d",&g);
-a=g/100;
-b=((g%100)/10);
-c=((g%100)%10);
-e=a+b+c;
-h=a*b*c;
-printf("sum of individual number is:%d\n",e);
-printf("multipling individualy all 3 digit:%d\n",h);
-}
-```
-**OUTPUT**
-```
-Enter a three digit number:253
-sum of individual number is:10
-multipling individualy all 3 digit:30
-```
-## 21. Experience
-```
-#include<stdio.h>
-int main()
-
-{
-int n ;
-float y,sum;
-
-printf("\t\t\tEnter the no of employes: ");
-scanf("%d",&n);
-for (int i=1 ;i<=n;i++)
-{
-
-printf("\n\t\t\tEnter the experience of %d employe:",i);
-scanf("%f",&y);
-sum += y;
-}
-printf("\n\t\t\tTotal experience employes:%.2f\n\n",sum);
-}
-```
-**OUTPUT**
-```
-                        Enter the no of employes: 3
-
-                        Enter the experience of 1 employe:12.6
-
-                        Enter the experience of 2 employe:25
-
-                        Enter the experience of 3 employe:13.25
-
-                        Total experience employes:50.85
-
-```
-## 22.  Odd or Even
-```
-#include<stdio.h>
-int main()
-{
-int a;
-printf("To find whether the number is odd or even\n ");
-printf("Enter any number:");
-scanf("%d",&a);
-
-if(a%2==0)
-printf("%d is even number\n",a);
-
-else
-printf("%d is odd number\n",a);
-
-}
-```
-**OUTPUT**
-```
-To find whether the number is odd or even
- Enter any number:25
-25 is odd number
-```
-## 23. Use of array in structure
-```
-#include<stdio.h>
-
-struct student
-{
-int roll;
-char name[25];
-};
-
-int main()
-
-{
-
-int i;
-struct student st[5];
-printf("Enter student information\n");
-for(i=1;i<=5;i++)
-  {
-   printf("Enter roll no.:");
-   scanf("%d",&st[i].roll);
-   printf("enter the name:");
-   scanf("%s", &st[i].name);
-  }
-printf("stdents info.\n");
-for(i=1;i<=5;i++)
-{
-printf("rollNo. %d\n name:%s\n",st[i].roll,st[i].name);
-}
-
-return 0;
-}
-```
-**OUTPUT**
-```
-Enter student information
-Enter roll no.:3
-enter the name:ashu
-Enter roll no.:13
-enter the name:arsh
-Enter roll no.:25
-enter the name:harsh
-Enter roll no.:11
-enter the name:deep
-Enter roll no.:23
-enter the name:preet
-stdents info.
-rollNo. 3
- name:ashu
-rollNo. 13
- name:arsh
-rollNo. 25
- name:harsh
-rollNo. 11
- name:deep
-rollNo. 23
- name:preet
-```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjgyMzM2MTIsMTIwNTU3Njk1NCwxMz
+eyJoaXN0b3J5IjpbLTEwNDg5NDM2NjEsMTIwNTU3Njk1NCwxMz
 Q2OTA5NzY4LDE1NDI3MjM3NjAsLTIwMzYyMzA4MjQsMjA4Mjc1
 NzU5OCwtMjA3MTA4NDczMiwtNjYzODkwMTY5LC01MDkyNjUwOT
 BdfQ==
