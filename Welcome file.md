@@ -15,15 +15,12 @@
 #include<stdio.h>
 int main()
 {
-printf("\t\t\taa gyea pher convert krn\n\n");
-printf("\t\t\tchll pehla degree toh fahrenheit vch krde aa\n\n");
-
 float c;
 float g;
-printf("\n\thon ds de koi number jeada mein convert kra:");
+printf("\n\tEnter the value in fahrenheit:");
 scanf("%f",&c);
 g=((9*c)/5)+32;
-printf("\n\n\t\taa le chk fahrenheit vch:%.3f\n\n\n\n\n",g);
+printf("\n\n\t\t:%.3f\n\n\n\n\n",g);
 }
 ```
 **OUTPUT**
@@ -1044,5 +1041,5 @@ M2MjMwODI0LDIwODI3NTc1OTgsLTIwNzEwODQ3MzIsLTY2Mzg5
 MDE2OSwtNTA5MjY1MDkwXX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDE4MjU2MF19
+eyJoaXN0b3J5IjpbMTgzOTMyNDA4NV19
 -->
