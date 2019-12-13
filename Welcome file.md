@@ -48,8 +48,8 @@ printf("%d is negative\n");
 Enter any number:5
 5 is positive
 
-
-
+Enter any number:-9
+-9 is negative
 ```
 ## 1. To find Area of circle
 ```
@@ -152,36 +152,7 @@ fizz
 19
 buzz
 ```
-## 5. Program which will accept everything
-```
-#include<stdio.h>
-int main()
-{
-int a;
-float b;
-char g;
-printf("Enter any interger:\n");
-scanf("%d",&a);
-printf("Enter any decimal number:\n");
-scanf("%f",&b);
-printf("Enter any character:\n");
-scanf(" %c",&g);
-char name[220];
-printf("Enter any name:\n");
-scanf("%s",&name);
-}
-```
-**OUTPUT**
-```
-Enter any interger:
-5
-Enter any decimal number:
-2.3
-Enter any character:
-d
-Enter any name:
-ashu
-```
+
 ## 6.  Largest number
 ```
 #include<stdio.h>
@@ -1030,5 +1001,5 @@ M2MjMwODI0LDIwODI3NTc1OTgsLTIwNzEwODQ3MzIsLTY2Mzg5
 MDE2OSwtNTA5MjY1MDkwXX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDU2NzAzNCwxNDE1Mjc5NDhdfQ==
+eyJoaXN0b3J5IjpbMTYyOTA2MjU2NSwxNDE1Mjc5NDhdfQ==
 -->
