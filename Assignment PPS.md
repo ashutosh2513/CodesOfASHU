@@ -348,12 +348,72 @@ table from 12 to 15 are:-
 
 ## 8. WAP to display the table of even number.
 ```
+#include<stdio.h>
+int main()
+{
+int a,b,c,d,e,f;
+printf("enter the range\n");
+printf("from:");
+scanf("%d",&a);
+printf("to:");
+scanf("%d",&b);
+
+printf("table from %d to %d are:-\n",a,b);
+
+for(c=a;c<=b;c++)
+   {
+     if(c%2==0) 
+     {
+      for(d=1;d<=10;d++)
+      {
+      e=d*c;
+      printf("%d*%d=%d\n",c,d,e);
+      }
+     }
+   }
+}
 
 ```
 **OUTPUT**
 ```
+enter the range
+from:12
+to:16
+table from 12 to 16 are:-
+12*1=12
+12*2=24
+12*3=36
+12*4=48
+12*5=60
+12*6=72
+12*7=84
+12*8=96
+12*9=108
+12*10=120
+14*1=14
+14*2=28
+14*3=42
+14*4=56
+14*5=70
+14*6=84
+14*7=98
+14*8=112
+14*9=126
+14*10=140
+16*1=16
+16*2=32
+16*3=48
+16*4=64
+16*5=80
+16*6=96
+16*7=112
+16*8=128
+16*9=144
+16*10=160
 
 ```
+
+## 9. 
 
 ## 1. To find Area of circle
 ```
@@ -1329,8 +1389,8 @@ Enter a number to calculate its factorial
 Factorial of 6 = 720
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ1MjI3MDIyLDEyMDU1NzY5NTQsMTM0Nj
-kwOTc2OCwxNTQyNzIzNzYwLC0yMDM2MjMwODI0LDIwODI3NTc1
-OTgsLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OSwtNTA5MjY1MDkwXX
-0=
+eyJoaXN0b3J5IjpbLTI3NDc1ODAxNiwxMjA1NTc2OTU0LDEzND
+Y5MDk3NjgsMTU0MjcyMzc2MCwtMjAzNjIzMDgyNCwyMDgyNzU3
+NTk4LC0yMDcxMDg0NzMyLC02NjM4OTAxNjksLTUwOTI2NTA5MF
+19
 -->
