@@ -413,7 +413,14 @@ table from 12 to 16 are:-
 
 ```
 
-## 9. 
+## 9. WAP to check whether the number is prime or not.
+```
+
+```
+**OUTPUT**
+```
+
+```
 
 ## 1. To find Area of circle
 ```
@@ -1389,8 +1396,8 @@ Enter a number to calculate its factorial
 Factorial of 6 = 720
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NDc1ODAxNiwxMjA1NTc2OTU0LDEzND
-Y5MDk3NjgsMTU0MjcyMzc2MCwtMjAzNjIzMDgyNCwyMDgyNzU3
-NTk4LC0yMDcxMDg0NzMyLC02NjM4OTAxNjksLTUwOTI2NTA5MF
-19
+eyJoaXN0b3J5IjpbLTE0OTA5OTg4NTgsMTIwNTU3Njk1NCwxMz
+Q2OTA5NzY4LDE1NDI3MjM3NjAsLTIwMzYyMzA4MjQsMjA4Mjc1
+NzU5OCwtMjA3MTA4NDczMiwtNjYzODkwMTY5LC01MDkyNjUwOT
+BdfQ==
 -->
