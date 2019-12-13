@@ -554,6 +554,34 @@ Even numbers :-
 
 ## 14. Program to find greater among an array.
 ```
+#include<stdio.h>
+int main()
+{
+
+int a[20],b,c,d,p;
+printf("Enter how many numbers:");
+scanf("%d",&d);
+
+printf("Enter %d number:",d);
+
+for(b=0;b<d;b++)
+{
+scanf("%d",&a[b]);
+}
+
+p=a[0];
+for(b=1;b<d;b++)
+{
+if(a[b]>p)
+{
+p=a[b];
+}
+}
+
+printf("Largest number amoung all is : %d\n",p);
+
+
+}
 
 ```
 **OUTPUT**
@@ -727,34 +755,12 @@ Enter 4 numbers of second matrix:4
 
 ```
 
-## 13. Reversing the Number
-```
-#include<stdio.h>
-int main()
-{
-int a,b,g,c;
-printf("Enter any 3 digit number:");
-scanf("%d",&a);
 
-g=a/100;
-b=((a%100)/10);
-c=((a%100)%10);
-
-printf("\n\n\t\tOn Reversing the 3 digit number:%d%d%d\n",c,b,g); 
-}
-```
-**OUTPUT**
-```
-Enter any 3 digit number:253
-
-
-                On Reversing the 3 digit number:352
-```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjMzNzA1MDgsMTQ5MTMzNTY4MywxMj
-A1NTc2OTU0LDEzNDY5MDk3NjgsMTU0MjcyMzc2MCwtMjAzNjIz
-MDgyNCwyMDgyNzU3NTk4LC0yMDcxMDg0NzMyLC02NjM4OTAxNj
-ksLTUwOTI2NTA5MF19
+eyJoaXN0b3J5IjpbMjEyMTUzNDg1MywxNDkxMzM1NjgzLDEyMD
+U1NzY5NTQsMTM0NjkwOTc2OCwxNTQyNzIzNzYwLC0yMDM2MjMw
+ODI0LDIwODI3NTc1OTgsLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OS
+wtNTA5MjY1MDkwXX0=
 -->
