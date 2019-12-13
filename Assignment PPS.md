@@ -10,6 +10,170 @@
 
 # My C programs
 
+## 1. To convert  Degree To Fahrenheit
+```
+#include<stdio.h>
+int main()
+{
+float c;
+float g;
+printf("\n\tEnter the value in fahrenheit:");
+scanf("%f",&c);
+g=((9*c)/5)+32;
+printf("\n\n\t\tIn degree:%.3f\n\n\n\n\n",g);
+}
+```
+**OUTPUT**
+```
+ 
+         Enter the value in fahrenheit:23
+
+
+                In degree:73.400
+```
+## 2.  WAP which takes 2 integer , operands and one operator from user,  perform the operation and then print the result (+,-,*,/,%)
+```
+
+#include<stdio.h>
+int main()
+{
+char ca;
+float a,b;
+printf(" _________________\n ");
+printf("|_______________|\n");
+printf(" | 1 | 2 | 3 |   |\n");
+printf(" |___|___|___|   |\n");
+printf(" | 4 | 5 | 6 | + |\n");
+printf(" |___|___|___|___|\n");
+printf(" | 7 | 8 | 9 | - |\n");
+printf(" |___|___|___|___|\n");
+printf(" |    0      | * |\n");
+printf(" |___________|___|\n");
+
+printf("\n\n\t\tWhat do u want to do: +, -, /, * :");
+scanf("%c",&ca);
+
+printf("\tEnter the two numbers:");
+scanf("%f%f",&a,&b); 
+
+switch(ca)
+{
+case '+':
+printf(" _________________\n ");
+printf("|%.1f+%.1f = %.1f\n",a,b,a+b);
+printf(" |_______________|\n");
+printf(" | 1 | 2 | 3 |   |\n");
+printf(" |___|___|___|   |\n");
+printf(" | 4 | 5 | 6 | + |\n");
+printf(" |___|___|___|___|\n");
+printf(" | 7 | 8 | 9 | - |\n");
+printf(" |___|___|___|___|\n");
+printf(" |    0      | * |\n");
+printf(" |___________|___|\n");
+break;
+case '-':
+printf(" _________________\n ");
+printf("|%.1f-%.1f = %.1f\n",a,b,a-b);
+printf(" |_______________|\n");
+printf(" | 1 | 2 | 3 |   |\n");
+printf(" |___|___|___|   |\n");
+printf(" | 4 | 5 | 6 | + |\n");
+printf(" |___|___|___|___|\n");
+printf(" | 7 | 8 | 9 | - |\n");
+printf(" |___|___|___|___|\n");
+printf(" |    0      | * |\n");
+printf(" |___________|___|\n");
+break;
+case '*':
+printf(" _________________\n ");
+printf("|%.1f*%.1f = %.1f\n",a,b,a*b);
+printf(" |_______________|\n");
+printf(" | 1 | 2 | 3 |   |\n");
+printf(" |___|___|___|   |\n");
+printf(" | 4 | 5 | 6 | + |\n");
+printf(" |___|___|___|___|\n");
+printf(" | 7 | 8 | 9 | - |\n");
+printf(" |___|___|___|___|\n");
+printf(" |    0      | * |\n");
+printf(" |___________|___|\n");
+break;
+case '/':
+if(b==0)
+{
+printf("Not possibe");
+}
+else
+{
+printf(" _________________\n ");
+printf("|%.1f/%.1f = %.2f\n",a,b,a/b);
+printf(" |_______________|\n");
+printf(" | 1 | 2 | 3 |   |\n");
+printf(" |___|___|___|   |\n");
+printf(" | 4 | 5 | 6 | + |\n");
+printf(" |___|___|___|___|\n");
+printf(" | 7 | 8 | 9 | - |\n");
+printf(" |___|___|___|___|\n");
+printf(" |    0      | * |\n");
+printf(" |___________|___|\n");
+}
+break;
+default:
+printf("\n\n\t\tplz choose the correct option\n\n");
+}
+return 0;
+}
+```
+**OUTPUT**
+```
+ _________________
+ |_______________|
+ | 1 | 2 | 3 |   |
+ |___|___|___|   |
+ | 4 | 5 | 6 | + |
+ |___|___|___|___|
+ | 7 | 8 | 9 | - |
+ |___|___|___|___|
+ |    0      | * |
+ |___________|___|
+
+
+                What do u want to do: +, -, /, * :+
+        Enter the two numbers:13
+25
+ _________________
+ |13.0+25.0 = 38.0
+ |_______________|
+ | 1 | 2 | 3 |   |
+ |___|___|___|   |
+ | 4 | 5 | 6 | + |
+ |___|___|___|___|
+ | 7 | 8 | 9 | - |
+ |___|___|___|___|
+ |    0      | * |
+ |___________|___|
+```
+## 3. WAP to find whether the number is +ve or -ve.
+```
+#include<stdio.h>
+int main()
+{
+printf("Enter any number:");
+scanf("%d",&a);
+if(a>=0)
+printf("%d is positive\n",a);
+else
+printf("%d is negative\n");
+```
+**OUTPUT**
+```
+Enter any number:5
+5 is positive
+
+Enter any number:-9
+-9 is negative
+
+```
+
 ## 1. To find Area of circle
 ```
 #include<stdio.h>
@@ -1011,7 +1175,7 @@ Enter a number to calculate its factorial
 Factorial of 6 = 720
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NjkwOTc2OCwxNTQyNzIzNzYwLC0yMD
-M2MjMwODI0LDIwODI3NTc1OTgsLTIwNzEwODQ3MzIsLTY2Mzg5
-MDE2OSwtNTA5MjY1MDkwXX0=
+eyJoaXN0b3J5IjpbMTIwNTU3Njk1NCwxMzQ2OTA5NzY4LDE1ND
+I3MjM3NjAsLTIwMzYyMzA4MjQsMjA4Mjc1NzU5OCwtMjA3MTA4
+NDczMiwtNjYzODkwMTY5LC01MDkyNjUwOTBdfQ==
 -->
