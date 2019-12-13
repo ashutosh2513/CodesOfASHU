@@ -560,52 +560,7 @@ Even numbers :-
 ```
 
 ```
-## 6.  Largest number
-```
-#include<stdio.h>
-int main()
-{
-int a,b,c;
 
-printf("Enter three number:");
-scanf("%d%d%d",&a,&b,&c);
-
-if(a>b&&a>c)
-{
-printf("%d is the largest number\n ",a);
-}
-else if(b>c)
-{
-printf("%d is the largest number\n ",b);
-}
-else
-{
-printf("%d is the largest number\n ",c);
-}
-if(a<b&&a<c)
-{
-printf("%d is the smallest number\n ",a);
-}
-else if(b<c)
-{
-printf("%d is the smallest number\n ",b);
-}
-else
-{
-printf("%d is the smalest number\n ",c);
-}
-
-return 0;
-}
-```
-**OUTPUT**
-```
-Enter three number:9
-5
-55
-55 is the largest number
- 5 is the smallest number
- ```
 
 ## 7. Matrix 
 ```
@@ -801,8 +756,8 @@ After swaping:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NDM5Njc1NywxNDkxMzM1NjgzLDEyMD
-U1NzY5NTQsMTM0NjkwOTc2OCwxNTQyNzIzNzYwLC0yMDM2MjMw
-ODI0LDIwODI3NTc1OTgsLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OS
-wtNTA5MjY1MDkwXX0=
+eyJoaXN0b3J5IjpbNjk3MjkwNTA5LDE0OTEzMzU2ODMsMTIwNT
+U3Njk1NCwxMzQ2OTA5NzY4LDE1NDI3MjM3NjAsLTIwMzYyMzA4
+MjQsMjA4Mjc1NzU5OCwtMjA3MTA4NDczMiwtNjYzODkwMTY5LC
+01MDkyNjUwOTBdfQ==
 -->
