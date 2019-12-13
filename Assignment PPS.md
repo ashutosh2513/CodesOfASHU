@@ -471,7 +471,14 @@ Enter a number to calculate its factorial
 Factorial of 6 = 720
 ```
 
+## 12. WAP to find factorial of a number using recursion.
+```
 
+```
+**OUTPUT**
+```
+
+```
 
 ## 6.  Largest number
 ```
@@ -714,7 +721,7 @@ After swaping:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDg5NDM2NjEsMTIwNTU3Njk1NCwxMz
+eyJoaXN0b3J5IjpbLTEyOTQ5NDAyNjcsMTIwNTU3Njk1NCwxMz
 Q2OTA5NzY4LDE1NDI3MjM3NjAsLTIwMzYyMzA4MjQsMjA4Mjc1
 NzU5OCwtMjA3MTA4NDczMiwtNjYzODkwMTY5LC01MDkyNjUwOT
 BdfQ==
