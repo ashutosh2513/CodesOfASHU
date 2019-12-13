@@ -237,7 +237,14 @@ printf("\n\t\t\tTotal experience employes:%.2f\n\n",sum);
 
 ```
 
-## 6.
+## 6. WAP to display the table of user choice.
+```
+
+```
+**OUTPUT**
+```
+
+```
 ## 1. To find Area of circle
 ```
 #include<stdio.h>
@@ -1239,8 +1246,8 @@ Enter a number to calculate its factorial
 Factorial of 6 = 720
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDM5NTgwMTAsMTIwNTU3Njk1NCwxMz
-Q2OTA5NzY4LDE1NDI3MjM3NjAsLTIwMzYyMzA4MjQsMjA4Mjc1
-NzU5OCwtMjA3MTA4NDczMiwtNjYzODkwMTY5LC01MDkyNjUwOT
-BdfQ==
+eyJoaXN0b3J5IjpbMTUzOTk2OTI2LDEyMDU1NzY5NTQsMTM0Nj
+kwOTc2OCwxNTQyNzIzNzYwLC0yMDM2MjMwODI0LDIwODI3NTc1
+OTgsLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OSwtNTA5MjY1MDkwXX
+0=
 -->
