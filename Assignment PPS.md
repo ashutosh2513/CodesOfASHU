@@ -630,6 +630,21 @@ printf("\n");
 ```
 **OUTPUT**
 ```
+Enter rows and coloum of first matrix:2
+2
+Enter rows and coloum of second matrix:2
+2
+Enter 4 numbers of first matrix:1
+2
+3
+4
+Enter 4 numbers of second matrix:4
+3
+2
+1
+After addition 
+5 5 
+5 5 
 
 ```
 
@@ -827,8 +842,8 @@ After swaping:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyNTk2MzYwLDE0OTEzMzU2ODMsMTIwNT
-U3Njk1NCwxMzQ2OTA5NzY4LDE1NDI3MjM3NjAsLTIwMzYyMzA4
-MjQsMjA4Mjc1NzU5OCwtMjA3MTA4NDczMiwtNjYzODkwMTY5LC
-01MDkyNjUwOTBdfQ==
+eyJoaXN0b3J5IjpbLTY1OTQ0MTk0NCwxNDkxMzM1NjgzLDEyMD
+U1NzY5NTQsMTM0NjkwOTc2OCwxNTQyNzIzNzYwLC0yMDM2MjMw
+ODI0LDIwODI3NTc1OTgsLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OS
+wtNTA5MjY1MDkwXX0=
 -->
