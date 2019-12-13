@@ -712,7 +712,7 @@ Enter 4 numbers of second matrix:4
 
 ```
 
-## 15. WAP to reverse a number.
+## 17. WAP to reverse a number.
 ```
 
 ```
@@ -747,7 +747,7 @@ Enter any 3 digit number:253
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MjA5Njc0MywxNDkxMzM1NjgzLDEyMD
+eyJoaXN0b3J5IjpbMTQ1OTM1NzcyMywxNDkxMzM1NjgzLDEyMD
 U1NzY5NTQsMTM0NjkwOTc2OCwxNTQyNzIzNzYwLC0yMDM2MjMw
 ODI0LDIwODI3NTc1OTgsLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OS
 wtNTA5MjY1MDkwXX0=
