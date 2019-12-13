@@ -752,15 +752,17 @@ Enter 4 numbers of second matrix:4
 ```
 **OUTPUT**
 ```
-
+Enter a number to reverse
+1234
+Reverse of the number = 4321
 ```
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMTUzNDg1MywxNDkxMzM1NjgzLDEyMD
-U1NzY5NTQsMTM0NjkwOTc2OCwxNTQyNzIzNzYwLC0yMDM2MjMw
-ODI0LDIwODI3NTc1OTgsLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OS
-wtNTA5MjY1MDkwXX0=
+eyJoaXN0b3J5IjpbNDU5OTM3MzAwLDIxMjE1MzQ4NTMsMTQ5MT
+MzNTY4MywxMjA1NTc2OTU0LDEzNDY5MDk3NjgsMTU0MjcyMzc2
+MCwtMjAzNjIzMDgyNCwyMDgyNzU3NTk4LC0yMDcxMDg0NzMyLC
+02NjM4OTAxNjksLTUwOTI2NTA5MF19
 -->
