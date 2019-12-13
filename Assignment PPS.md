@@ -695,9 +695,28 @@ printf("\n");
 ```
 **OUTPUT**
 ```
+Enter rows and coloum of first matrix:2
+2
+Enter rows and coloum of second matrix:2
+2
+Enter 4 numbers of first matrix:1
+2
+3
+4
+Enter 4 numbers of second matrix:4
+3
+2
+1
+8	5	
+20	13	
 
 ```
 
+## 15. WAP to reverse a number.
+```
+
+```
+**OUTPUT**
 ## 11. Perfect number
 ```
 #include<stdio.h>
@@ -883,8 +902,8 @@ After swaping:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODE0Mjc5NiwxNDkxMzM1NjgzLDEyMD
-U1NzY5NTQsMTM0NjkwOTc2OCwxNTQyNzIzNzYwLC0yMDM2MjMw
-ODI0LDIwODI3NTc1OTgsLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OS
-wtNTA5MjY1MDkwXX0=
+eyJoaXN0b3J5IjpbLTE0NTA2ODE1MDUsMTQ5MTMzNTY4MywxMj
+A1NTc2OTU0LDEzNDY5MDk3NjgsMTU0MjcyMzc2MCwtMjAzNjIz
+MDgyNCwyMDgyNzU3NTk4LC0yMDcxMDg0NzMyLC02NjM4OTAxNj
+ksLTUwOTI2NTA5MF19
 -->
