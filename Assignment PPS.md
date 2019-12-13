@@ -445,7 +445,31 @@ Enter the number:7
 
 ```
 
-## 11. 
+## 11. WAP to find Factorial
+```
+#include <stdio.h>  
+  
+int main()  
+{  
+int c, n, fact = 1;  
+  
+printf("Enter a number to calculate its factorial\n");  
+scanf("%d", &n);
+
+for (c = 1; c <= n; c++)  
+fact = fact * c;  
+  
+printf("Factorial of %d = %d\n", n, fact);  
+  
+return 0;  
+}
+```
+**OUTPUT**
+```
+Enter a number to calculate its factorial
+6
+Factorial of 6 = 720
+```
 
 ## 1. To find Area of circle
 ```
@@ -1395,34 +1419,10 @@ rollNo. 11
 rollNo. 23
  name:preet
 ```
-## 24. Find Factorial
-```
-#include <stdio.h>  
-  
-int main()  
-{  
-int c, n, fact = 1;  
-  
-printf("Enter a number to calculate its factorial\n");  
-scanf("%d", &n);
 
-for (c = 1; c <= n; c++)  
-fact = fact * c;  
-  
-printf("Factorial of %d = %d\n", n, fact);  
-  
-return 0;  
-}
-```
-**OUTPUT**
-```
-Enter a number to calculate its factorial
-6
-Factorial of 6 = 720
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwNDEyMTEzLDEyMDU1NzY5NTQsMTM0Nj
-kwOTc2OCwxNTQyNzIzNzYwLC0yMDM2MjMwODI0LDIwODI3NTc1
-OTgsLTIwNzEwODQ3MzIsLTY2Mzg5MDE2OSwtNTA5MjY1MDkwXX
-0=
+eyJoaXN0b3J5IjpbLTEwOTA2ODYzOTgsMTIwNTU3Njk1NCwxMz
+Q2OTA5NzY4LDE1NDI3MjM3NjAsLTIwMzYyMzA4MjQsMjA4Mjc1
+NzU5OCwtMjA3MTA4NDczMiwtNjYzODkwMTY5LC01MDkyNjUwOT
+BdfQ==
 -->
